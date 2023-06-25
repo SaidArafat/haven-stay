@@ -6,7 +6,7 @@ import NotFound from "./layouts/notFound";
 import Signup from "./pages/signUp";
 import SignIn from "./pages/signIn";
 import Testimonials from "./components/testimonials";
-import Rooms from "./pages/rooms";
+import Rooms from "./pages/rooms/rooms";
 import Facilities from "./components/facilities";
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
         { path: "/signup", element: <Signup /> },
         { path: "/signin", element: <SignIn /> },
         { path: "/reviews", element: <Testimonials /> },
+        { path: "/rooms", element: <Rooms /> },
         { path: "/rooms", element: <Rooms /> },
         { path: "/facilities", element: <Facilities /> },
       ],
