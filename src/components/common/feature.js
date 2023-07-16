@@ -14,12 +14,12 @@ const Feature = ({ feature }) => {
       <div className="col-md-6 text-center text-md-start">
         <h4 className="text-capitalize fw-medium fs-3">{feature.title}</h4>
         <p className="my-4">{feature.caption}</p>
-        <ButtonOutline link={`/${feature.title.replace(/\s+/g, "-")}`}>
-          Visit Now
-        </ButtonOutline>
+        <ButtonOutline link="/">Visit Now</ButtonOutline>
       </div>
     </>
   );
 };
 
 export default Feature;
+
+// link={`/${feature.title.replace(/\s+/g, "-")}`}

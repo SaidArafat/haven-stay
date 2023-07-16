@@ -99,7 +99,7 @@ const SignIn = () => {
         <ButtonOutline>Sign in</ButtonOutline>
       </form>
       <div className=" text-center">
-        <Link className="d-block" to="/forgot-password">
+        <Link className="d-block" to="/">
           Forgot password?
         </Link>
         <span className="me-1 opacity-75">Don't have an account?</span>

@@ -4,12 +4,12 @@ import ButtonOutline from "./buttons/buttonOutline";
 
 const Navbar = () => {
   const links = [
-    { path: "booking", label: "booking" },
+    // { path: "booking", label: "booking" },
     { path: "facilities", label: "facilities" },
-    { path: "support", label: "support" },
+    // { path: "support", label: "support" },
     { path: "rooms", label: "rooms" },
     { path: "Reviews", label: "Reviews" },
-    { path: "Blog", label: "blog" },
+    // { path: "Blog", label: "blog" },
   ];
 
   const renderedLinks = links.map((link, index) => {
